@@ -28,7 +28,7 @@ jobs:
         include:
           - build_variant: "mt7621"
             targets: "K2P_nano"
-     steps:
+    steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
         run: |
